@@ -36,7 +36,13 @@ public class ClientLoginPageTest extends TestBase{
 	@Test(priority=1)
 	public void loginPageTitleTest() {
 		String title = loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "Peddleup Login");
+		Assert.assertEquals(title, "PeddleUp");
+	}
+	
+	@Test(priority=2)
+	public void loginTest() throws InterruptedException {
+		/* This Login Page is returning the object of Client Manage Profile Page */
+		clientProfile = loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
 	}
 	
 	@AfterMethod
@@ -44,7 +50,5 @@ public class ClientLoginPageTest extends TestBase{
 		Thread.sleep(4000);
 		driver.quit();
 	}
-
-
 
 }

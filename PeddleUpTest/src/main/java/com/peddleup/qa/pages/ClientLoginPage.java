@@ -9,6 +9,9 @@ import com.peddleup.qa.base.TestBase;
 public class ClientLoginPage extends TestBase{
 
 	// First we have to define PageFactory / Object Repository
+	
+	@FindBy(xpath = "//a[contains(@class,'btn btn-white-outline display-4')]")
+	WebElement loginbutton;
 
 	@FindBy(name = "email_id")
 	WebElement email_id;
@@ -40,6 +43,7 @@ public class ClientLoginPage extends TestBase{
 
 
 	public ClientManageProfilePage login(String email,String pwd) throws InterruptedException {
+		loginbutton.click();
 		email_id.sendKeys(email);
 		Thread.sleep(2000);
 		password.sendKeys(pwd);

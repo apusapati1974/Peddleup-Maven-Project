@@ -22,7 +22,7 @@ public class TestBase {
 		// Read the properties inside the config.properties file 
 				try {
 					prop = new Properties();
-					FileInputStream ip = new FileInputStream("D:/PeddleUp Project/PageObjectModel/src/main/java/com/pom/qa/config/config.properties");
+					FileInputStream ip = new FileInputStream("C:/Users/DELL/git/MavenProject/PeddleUpTest/src/main/java/com/peddleup/qa/config/config.properties");
 					prop.load(ip);
 				}catch(FileNotFoundException e) {
 					e.printStackTrace();
@@ -37,9 +37,6 @@ public class TestBase {
 		if(browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "E:/Driver/chromedriver.exe");
 			driver = new ChromeDriver();
-		}else if(browserName.equals("msedge")) {
-			System.setProperty("webdriver.edge.driver", "E:/Driver/chromedriver.exe");
-			driver = new EdgeDriver();
 		}
 		
 		driver.manage().window().maximize();

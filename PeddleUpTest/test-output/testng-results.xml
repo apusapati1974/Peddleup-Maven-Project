@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55763" started-at="2022-11-14T16:08:16 IST" finished-at="2022-11-14T16:09:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55763" started-at="2022-11-14T16:08:16 IST" finished-at="2022-11-14T16:09:11 IST">
+      <class name="com.peddleup.qa.testcases.SignUpPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.peddleup.qa.testcases.SignUpPageTest@670b40af]" name="setup" is-config="true" duration-ms="12575" started-at="2022-11-14T16:08:16 IST" finished-at="2022-11-14T16:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PageTitleTest()[pri:1, instance:com.peddleup.qa.testcases.SignUpPageTest@670b40af]" name="PageTitleTest" duration-ms="84" started-at="2022-11-14T16:08:28 IST" finished-at="2022-11-14T16:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.peddleup.qa.testcases.SignUpPageTest@670b40af]" name="tearDown" is-config="true" duration-ms="4988" started-at="2022-11-14T16:08:28 IST" finished-at="2022-11-14T16:08:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.peddleup.qa.testcases.SignUpPageTest@670b40af]" name="setup" is-config="true" duration-ms="7017" started-at="2022-11-14T16:08:33 IST" finished-at="2022-11-14T16:08:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="singup()[pri:2, instance:com.peddleup.qa.testcases.SignUpPageTest@670b40af]" name="singup" duration-ms="25945" started-at="2022-11-14T16:08:40 IST" finished-at="2022-11-14T16:09:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.peddleup.qa.testcases.SignUpPageTest@670b40af]" name="tearDown" is-config="true" duration-ms="5039" started-at="2022-11-14T16:09:06 IST" finished-at="2022-11-14T16:09:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.peddleup.qa.testcases.SignUpPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
